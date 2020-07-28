@@ -18,7 +18,7 @@ gpt.add_example(Example('When someone texts my number respond with "hello"',
 gpt.add_example(Example('When someone texts me respond asking who they are"',
                         '<Response><Message>Who are you?</Message></Response>'))
 gpt.add_example(Example('When someone calls my number forward the call to +17187533087',
-                        '<Response><Dial>+17187533087</Dia></Response>')),
+                        '<Response><Dial>+17187533087</Dial></Response>')),
 gpt.add_example(Example('put everyone who calls this number into a conference call together',
                         '<Response><Dial><Conference>MyConferenceCall</Conference></Dial></Response>')),
 gpt.add_example(Example('When someone calls this number say record this message and then record what they say',
